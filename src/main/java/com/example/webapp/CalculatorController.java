@@ -40,7 +40,7 @@ public class CalculatorController {
     /** Return result of substraction */
     @RequestMapping(value = "/substract/{a:[0-9]+}/{b:[0-9]+}", method = RequestMethod.GET)
     @ResponseBody
-    public String substract(@PathVariable("a") Integer a, @PathVariable("b") Integer b) {
+    public String substract(@PathVariable("a") Integer a, @PathVariable("b") ) {
         return String.valueOf(a - b);
     }
 }
