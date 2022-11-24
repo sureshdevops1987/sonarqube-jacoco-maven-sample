@@ -19,6 +19,6 @@ public class MessageControllerTest {
 
     @Test
     public void testSaySomething() {
-        assertEquals(messageController.saySomething("qwerty"), "qwerty");
+        assertEquals(messageController.saySomething("qwerty"), "qwerty);
     }
 }
